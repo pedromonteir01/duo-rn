@@ -1,11 +1,25 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    container: {
+    img: {
+        width: 200,
+        height: 200,
+        borderRadius: 40,
+    },
+
+    container:{
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
-    }
-});
+    },
 
-export default styles;
+    text:{
+        color: 'black',
+        marginTop: 50,
+        fontSize: 15,
+        padding: 10,
+
+    }
+  })
+
+  export default styles;
