@@ -1,7 +1,7 @@
 import { View, Text, Image } from "react-native";
 import styles from "./styles";
 
-export default function Movies({ route }) {
+export default function Hobbies({ route }) {
     const { title, image, content } = route.params;
     return (
         <View style={styles.container}>
